@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="chararom"
-    fetch="https://github.com/"
+    fetch="https://github.com/CharaROMAndroid"
     sync-c="true"
     sync-j="4"
     revision="refs/heads/hershey" />
@@ -12,11 +12,11 @@
     sync-j="4" />
   <!-- CharaROM Additions -->
   <project path="packages/apps/Settings" 
-    name="chararomandroid/android_packages_apps_Settings" 
+    name="android_packages_apps_Settings" 
     groups="pdk-fs,pdk-cw-tvc,sysui-studio" 
     remote="chararom" />
   <project path="packages/apps/F-DroidPrivilegedExtension"
-    name="CharaROMAndroid/platform_packages_apps_F-DroidPrivilegedExtension" 
+    name="platform_packages_apps_F-DroidPrivilegedExtension" 
     remote="chararom" /> <!-- Credits to LMODroid for helping with paths! -->
   <project path="packages/apps/OpenEUICC" 
     name="PeterCxy/OpenEUICC"
