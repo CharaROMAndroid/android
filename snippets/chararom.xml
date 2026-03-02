@@ -18,10 +18,10 @@
   <project path="packages/apps/F-DroidPrivilegedExtension"
     name="platform_packages_apps_F-DroidPrivilegedExtension" 
     remote="chararom" /> <!-- Credits to LMODroid for helping with paths! -->
-  <project path="packages/apps/OpenEUICC" 
+  <!--<project path="packages/apps/OpenEUICC" 
     name="PeterCxy/OpenEUICC"
     remote="openeuicc"
-    revision="master"/> <!-- Credits to LMODroid for helping with paths! -->
+    revision="master"/> --> <!-- Credits to LMODroid for helping with paths! -->
   <project path="packages/apps/Ripple"
     name="packages_apps_Ripple"
     remote="chararom" /> <!-- Credits to DerpFest for helping with paths! -->
