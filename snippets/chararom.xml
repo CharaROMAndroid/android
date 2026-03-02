@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="chararom"
+    fetch="https://github.com/"
+    sync-c="true"
+    sync-j="4"
+    revision="refs/head/16.0" />
+
+  <!-- CharaROM Additions -->
+  <project path="packages/apps/Settings" name="chararomandroid/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="chararom" />
+</manifest>
