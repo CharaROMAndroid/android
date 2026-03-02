@@ -28,11 +28,5 @@
   <!--<project path="external/AppStore"
     name="platform_external_AppStore" 
     remote="chararom" 
-    clone-depth="1"/>--> <!-- NOT READY -->
-  <project path="packages/apps/Etar"
-    name="Etar-Group/Etar-Calendar"
-    sync-c="true"
-    sync-s="true"
-    revision="master"/>
-  
+    clone-depth="1"/>--> <!-- NOT READY -->  
 </manifest>
