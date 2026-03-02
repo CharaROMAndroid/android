@@ -31,8 +31,6 @@
     clone-depth="1"/>--> <!-- NOT READY -->  
   <!-- Remove Useless Projects -->
   <remove-project name="LineageOS/android_packages_apps_AudioFX"/>
-  <remove-project name="LineageOS/android_external_ant-wireless_ant_native" />
-  <remove-project name="LineageOS/android_external_ant-wireless_ant_service" />
   <remove-project name="LineageOS/android_external_bash" />
   <remove-project name="LineageOS/android_external_htop" />
   <remove-project name="LineageOS/android_external_nano" />
