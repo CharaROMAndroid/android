@@ -24,10 +24,10 @@
   <project path="packages/apps/Ripple"
     name="packages_apps_Ripple"
     remote="chararom" /> <!-- Credits to DerpFest for helping with paths! -->
-  <project path="external/AppStore"
+  <!--<project path="external/AppStore"
     name="platform_external_AppStore" 
     remote="chararom" 
-    clone-depth="1"/>
+    clone-depth="1"/>--> <!-- NOT READY -->
   <project path="packages/apps/Etar"
     name="Etar-Group/Etar-Calendar"
     sync-c="true"
