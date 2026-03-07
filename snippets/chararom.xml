@@ -16,7 +16,7 @@
     groups="pdk-fs,pdk-cw-tvc,sysui-studio" 
     remote="chararom" />
   <project path="lineage-sdk"
-    name="android_chara-sdk"
+    name="android_lineage-sdk"
     remote="chararom"/>
   <project path="packages/apps/F-DroidPrivilegedExtension"
     name="platform_packages_apps_F-DroidPrivilegedExtension" 
