@@ -1,25 +1,59 @@
 CharaROM
 ===========
-
-Getting started
----------------
-
 To get started with Android/CharaROM, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
-To initialize your local repository using the CharaROM trees, use a command like this:
+## 1. Grabbing the source
+
+Repo is a tool provided by Google that simplifies using Git in the context of the Android source:
+- Repo docs: http://source.android.com/source/developing.html
+- Git docs: http://git-scm.com/book
+
+### 1.1 Installing dependencies and Repo
+
+Several packages are needed in order to build crDroid. Example (we are using Ubuntu):
+```bash
+sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses6 libncurses-dev libsdl1.2-dev libssl-dev libwxgtk3.2-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 ```
-repo init -u https://github.com/CharaROMAndroid/android.git -b 16.0 --git-lfs
+(Some of those packages may need adjustment for your linux distribution)
+
+Install the Repo tool:
+```bash
+# create ~/bin and add to PATH for this session (or add to your shell profile)
+mkdir -p ~/bin
+export PATH=~/bin:$PATH
+
+# download Repo
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+# make Repo executable
+chmod a+x ~/bin/repo
 ```
-Then to sync up:
+
+Tip: Add `export PATH=~/bin:$PATH` to `~/.bashrc` or your shell profile so Repo is available in future sessions.
+
+### 1.2 Initializing Repo
+
+Create a workspace and initialize the CharaROM 16.0 manifest:
+```bash
+mkdir -p ~/chararom
+cd ~/chararom
+repo init -u https://github.com/chararomandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
 ```
+
+Sync the source tree (may take a long time on first run):
+```bash
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device. After all, we are LineageOS at the core!
-
+Notes and useful flags:
+- To recover from interrupted syncs or to force a fresh copy:  
+  `repo sync --force-sync --no-tags --no-clone-bundle -j8` (adjust `-j` to match your bandwidth/CPUs).
+- Use `repo sync -c` to only sync the current branch per project (saves time/space) when appropriate.
 
 Submitting patches
 ------------------
 We don't have a system for submitting patches at the moment, but feel free to open an issue with any suggested patch ideas.
+
+---
 
 ## 2. Building
 
@@ -37,7 +71,7 @@ brunch <devicecodename>
 Troubleshooting tips:
 - Out-of-disk-space: ensure enough free space (Android tree can require 100+ GB).
 - If builds fail after repo sync, try `repo sync --force-sync` and a clean build: `mka clean` then rebuild.
-
+- If builds still fail, consult the LineageOS build guide for your device.
 ---
 
 ## 3. Contributions
@@ -51,15 +85,15 @@ To submit changes or patches:
 ## 4. How to become an Official Maintainer
 
 1. Read and follow our rules and guidelines:
-   https://github.com/crdroidandroid/rules-and-guidelines
-2. If everything is in order, message Gabriel on Telegram:
-   https://telegram.me/gwolf2u
+   https://github.com/chararomandroid/rules-and-guidelines
+2. If everything is in order, message the team on Telegram:
+   https://telegram.me/bunnypaddev
 
 ---
 
-## 5. crDroid features / overlays, translations and forum template
+## 5. CharaROM features / overlays, translations and forum template
 
-### 5.1 crDroid overlays or flags
+### 5.1 CharaROM overlays or flags
 Set overlays to the proper paths.
 
 Frameworks base:
@@ -67,14 +101,14 @@ Frameworks base:
 overlay/frameworks/base/core/res/res/values/config.xml
 ```
 Example reference:
-https://github.com/crdroidandroid/android_frameworks_base/blob/17.0/core/res/res/values/cr_config.xml
+https://github.com/CharaROMAndroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml
 
 SystemUI:
 ```text
 overlay/frameworks/base/packages/SystemUI/res/values/config.xml
 ```
 Example reference:
-https://github.com/crdroidandroid/android_frameworks_base/blob/17.0/packages/SystemUI/res/values/cr_config.xml
+https://github.com/CharaROMAndroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
 
 ---
 
@@ -99,9 +133,11 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 ```
 
 ### 5.3 Translations
-We use Crowdin for translations. To help out see:
+We use crDroid's Crowdin for translations. To help out see:
 https://github.com/crdroidandroid/crdroid_features#translations
+
+If you want to translate a CharaROM specific string, please open a pull request for the time being.
 
 ### 5.4 Forum template
 Ready to share your build? Use the forum post template:
-https://github.com/crdroidandroid/crdroid_features/blob/17.0/ForumPostTemplate
+[Coming soon]
