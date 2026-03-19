@@ -49,10 +49,6 @@ Notes and useful flags:
   `repo sync --force-sync --no-tags --no-clone-bundle -j8` (adjust `-j` to match your bandwidth/CPUs).
 - Use `repo sync -c` to only sync the current branch per project (saves time/space) when appropriate.
 
-Submitting patches
-------------------
-We don't have a system for submitting patches at the moment, but feel free to open an issue with any suggested patch ideas.
-
 ---
 
 ## 2. Building
