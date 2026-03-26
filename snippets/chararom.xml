@@ -32,6 +32,10 @@
   <project path="vendor/addons"
   name="android_vendor_addons"
   remote="chararom"/>
+  <project path="build/release"
+  name="build_release"
+  groups="pdk,tradefed,sysui-studio"
+  remote="chararom" />
   <project path="packages/apps/crDroidSettings"
     name="android_packages_apps_CharaTweaks"
     remote="chararom" />
