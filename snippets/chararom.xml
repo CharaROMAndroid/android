@@ -22,6 +22,9 @@
   <project path="lineage-sdk"
     name="android_lineage-sdk"
     remote="chararom"/>
+  <project path="vendor/apn"
+    name="android_vendor_apn"
+    remote="chararom"/>
   <project path="packages/apps/LineageParts"
     name="android_packages_apps_LineageParts"
     remote="chararom"/>
