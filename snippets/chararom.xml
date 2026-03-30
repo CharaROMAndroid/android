@@ -48,4 +48,21 @@
   <project path="vendor/lineage"
     name="android_vendor_chararom"
     remote="chararom" />
+  <project path="device/lineage/sepolicy"
+   name="android_device_chara_sepolicy"
+   remote="chararom" />
+  <project path="packages/apps/Updater"
+   name="android_packages_apps_Updater"
+   remote="chararom" />
+  <project path="system/update_engine"
+   name="android_system_update_engine"
+   groups="pdk"
+   remote="chararom" />
+  <project path="vendor/CharaOTA"
+    name="android_vendor_CharaOTA"
+    remote="chararom" />
+  <project path="bootable/recovery"
+    name="android_bootable_recovery"
+    groups="pdk"
+    remote="chararom" />
 </manifest>
