@@ -58,9 +58,9 @@
    name="android_system_update_engine"
    groups="pdk"
    remote="chararom" />
-  <project path="vendor/CharaOTA"
+  <!--<project path="vendor/CharaOTA"
     name="android_vendor_CharaOTA"
-    remote="chararom" />
+    remote="chararom" />-->
   <project path="bootable/recovery"
     name="android_bootable_recovery"
     groups="pdk"
