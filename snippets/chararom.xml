@@ -10,6 +10,7 @@
     sync-c="true"
     sync-s="true"
     sync-j="4" />
+
   <!-- CharaROM Additions -->
   <project path="packages/apps/Settings" 
     name="android_packages_apps_Settings" 
@@ -40,6 +41,10 @@
     remote="chararom"/> <!-- Credits to LMODroid for helping with paths! -->
   <!--<project path="packages/apps/OpenEUICC" 
     name="PeterCxy/OpenEUICC"
+    remote="openeuicc"
+    revision="master"/>
+  <project path="prebuilts/openeuicc-deps"
+    name="PeterCxy/android_prebuilts_openeuicc-deps"
     remote="openeuicc"
     revision="master"/> --> <!-- Credits to LMODroid for helping with paths! -->
   <project path="packages/apps/Ripple"
