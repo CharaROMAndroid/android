@@ -97,7 +97,8 @@
   <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" groups="pdk" remote="crdroid" />
   <!--<project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />-->
   <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" remote="crdroid" />
-
+  <!-- BCR (Call Recording) -->
+  <project path="vendor/bcr" name="crdroidandroid/vendor_bcr" remote="crdroid" />
   <!--<project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />-->
   <project path="vendor/certification" name="crdroidandroid/android_vendor_certification" remote="crdroid" />
   <!--<project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />-->
