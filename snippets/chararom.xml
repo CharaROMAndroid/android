@@ -31,7 +31,7 @@
    groups="pdk-fs,sysui-studio,pdk-cw-tvc" 
    remote="chararom"/>
   <project path="vendor/addons"
-  name="android_vendor_addons"
+  name="android_vendor_chararom_addons"
   remote="chararom"/>
   <project path="packages/apps/crDroidSettings"
     name="android_packages_apps_CharaTweaks"
