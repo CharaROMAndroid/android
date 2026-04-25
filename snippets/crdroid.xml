@@ -47,7 +47,7 @@
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk,sysui-studio" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <!--<project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />-->
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="crdroid" />
@@ -81,9 +81,9 @@
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <!--<project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" /> -->
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
+  <!--<project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
-  <!--<project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />-->
+  <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />-->
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
   <project path="packages/modules/Bluetooth" name="crdroidandroid/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid" />
