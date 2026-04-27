@@ -73,4 +73,12 @@
     name="android_bootable_recovery"
     groups="pdk"
     remote="chararom" />
+  <project path="packages/modules/CaptivePortalLogin"
+    name="android_packages_modules_CaptivePortalLogin"
+    groups="pdk-cw-fs,pdk-fs"
+    remote="chararom" />
+  <project path="packages/modules/Connectivity"
+    name="android_packages_modules_Connectivity"
+    groups="pdk-cw-fs,pdk-fs"
+    remote="chararom" />
 </manifest>
