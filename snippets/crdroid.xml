@@ -25,14 +25,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="crdroid" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="crdroid" />
 
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
-
-  <project path="axion-sdk" name="crdroidandroid/android_axion-sdk" remote="crdroid" />
 
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
 
@@ -70,7 +65,6 @@
   <!--<project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />-->
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="packages/apps/DolbyAtmos" name="crdroidandroid/android_packages_apps_DolbyAtmos" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
   <!--<project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
@@ -92,9 +86,9 @@
   <!--<project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />-->
   <project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
-  <project path="packages/services/AxQuickLook" name="crdroidandroid/android_packages_services_AxQuickLook" remote="crdroid" />
   <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
+  <project path="packages/services/QuickLook" name="crdroidandroid/android_packages_services_QuickLook" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
