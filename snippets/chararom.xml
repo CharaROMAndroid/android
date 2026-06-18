@@ -69,8 +69,8 @@
     name="android_packages_modules_Connectivity"
     groups="pdk-cw-fs,pdk-fs"
     remote="chararom" />
-  <project path="packages/apps/F-DroidPrivilegedExtension"
+  <!--<project path="packages/apps/F-DroidPrivilegedExtension"
     name="privileged-extension.git"
     remote="fdroid"
-    revision="refs/tags/0.2.13" />
+    revision="refs/tags/0.2.13" />-->
 </manifest>
