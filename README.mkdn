@@ -1,3 +1,5 @@
+# WARNING: THIS BRANCH IS HIGHLY UNSTABLE. BUILDS MAY FAIL AND DEVICES MAY BOOTLOOP. THIS IS NOT FOR PRODUCTION USE. YOU HAVE BEEN WARNED.
+
 CharaROM
 ===========
 To get started with Android/CharaROM, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
@@ -37,7 +39,7 @@ Create a workspace and initialize the CharaROM 16.0 manifest:
 ```bash
 mkdir -p ~/chararom
 cd ~/chararom
-repo init -u https://github.com/chararomandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
+repo init -u https://github.com/chararomandroid/android.git -b 16.0-testing --git-lfs --no-clone-bundle
 ```
 
 Sync the source tree (may take a long time on first run):
