@@ -9,7 +9,7 @@
     fetch="https://github.com/CharaROMAndroid"
     sync-c="true"
     sync-j="4"
-    revision="refs/heads/herhsey-axpos" />
+    revision="refs/heads/hershey-axpos" />
   <remote name="openeuicc"
     fetch="https://gitea.angry.im/"
     sync-c="true"
