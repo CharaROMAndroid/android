@@ -86,4 +86,9 @@
   <project path="external/prebuiltapks"
     name="android_prebuilts_prebuiltapks_lfs"
     remote="chararom"/>
+  <!-- Privacy/Accessibility Apps -->
+  <project path="packages/apps/F-DroidPrivilegedExtension"
+    name="F-DroidPrivilegedExtension"
+    remote="chararom"
+    revision="master" />
 </manifest>
