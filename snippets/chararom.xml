@@ -88,9 +88,21 @@
   <project path="external/prebuiltapks"
     name="android_prebuilts_prebuiltapks_lfs"
     remote="chararom"/>
+  <project path="system/core" 
+    name="android_system_core"
+    groups="pdk"
+    remote="chararom" />
+  <project path="external/wpa_supplicant_8" 
+    name="android_external_wpa_supplicant_8"
+    groups="pdk"
+    remote="chararom" />
   <!-- Privacy/Accessibility Apps -->
   <project path="packages/apps/F-DroidPrivilegedExtension"
     name="F-DroidPrivilegedExtension"
-    remote="chararom"
-    revision="master" />
+    remote="chararom"/>
+  <!-- Use YAAP Aperture -->
+  <project path="packages/apps/Aperture"
+    name="YAAP/android_packages_apps_Aperture"
+    revision="sixteen"
+    remote="github"/>
 </manifest>
