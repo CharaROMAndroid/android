@@ -102,7 +102,7 @@
     remote="chararom"/>
   <!-- Use YAAP Aperture -->
   <project path="packages/apps/Aperture"
-    name="YAAP/android_packages_apps_Aperture"
+    name="YAAP/packages_apps_Aperture"
     revision="sixteen"
     remote="github"/>
 </manifest>
