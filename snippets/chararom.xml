@@ -105,4 +105,11 @@
     name="YAAP/packages_apps_Aperture"
     revision="sixteen"
     remote="github"/>
+  <!-- Panic Button Apps -->
+  <project path="packages/apps/EmergencyButton"
+    name="android_packages_apps_EmergencyButton"
+    remote="chararom"/>
+  <project path="packages/apps/TriggerResponse"
+    name="android_packages_apps_TriggerResponse"
+    remote="chararom"/>
 </manifest>
