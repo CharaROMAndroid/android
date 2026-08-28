@@ -38,7 +38,7 @@ Create a workspace and initialize the CharaROM 16.0 manifest:
 ```bash
 mkdir -p ~/chararom
 cd ~/chararom
-repo init -u https://github.com/chararomandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
+repo init -u https://git.chararom.xyz/CharaROMAndroid/android.git -b 16.0 --git-lfs --no-clone-bundle
 ```
 
 Sync the source tree (may take a long time on first run):
@@ -82,7 +82,7 @@ To submit changes or patches:
 ## 4. How to become an Official Maintainer
 
 1. Read and follow our rules and guidelines:
-   https://github.com/chararomandroid/rules-and-guidelines
+   https://git.chararom.xyz/chararomandroid/rules-and-guidelines
 2. If everything is in order, message the team on Telegram:
    https://telegram.me/bunnypaddev
 
@@ -98,14 +98,14 @@ Frameworks base:
 overlay/frameworks/base/core/res/res/values/config.xml
 ```
 Example reference:
-https://github.com/CharaROMAndroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml
+https://git.chararom.xyz/CharaROMAndroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml
 
 SystemUI:
 ```text
 overlay/frameworks/base/packages/SystemUI/res/values/config.xml
 ```
 Example reference:
-https://github.com/CharaROMAndroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
+https://git.chararom.xyz/CharaROMAndroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
 
 ---
 
@@ -131,4 +131,4 @@ If you want to translate a CharaROM specific string, please open a pull request 
 
 ### 5.4 Forum template
 Ready to share your build? Use the forum post template:
-https://github.com/CharaROMAndroid/chararom_features/blob/16.0/ForumPostTemplate
+https://git.chararom.xyz/CharaROMAndroid/chararom_features/blob/16.0/ForumPostTemplate
