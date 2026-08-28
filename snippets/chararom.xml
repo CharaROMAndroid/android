@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="chararom"
-    fetch="https://github.com/CharaROMAndroid"
+    fetch="https://git.chararom.xyz/CharaROMAndroid"
     sync-c="true"
     sync-j="4"
     revision="refs/heads/hershey" />
