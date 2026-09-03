@@ -63,6 +63,11 @@
   <project path="device/lineage/sepolicy"
    name="android_device_chara_sepolicy"
    remote="chararom" />
+  <remove-project name="crdroidandroid/android_system_sepolicy" />
+  <project path="system/sepolicy"
+    name="android_system_sepolicy"
+    groups="pdk"
+    remote="chararom" />
   <project path="packages/apps/Updater"
    name="android_packages_apps_Updater"
    remote="chararom" />
