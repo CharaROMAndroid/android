@@ -25,7 +25,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>-->
 
-  <project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="crdroid" />
+  <!--<project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed,sysui-studio" remote="crdroid" />-->
 
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
 
@@ -56,7 +56,7 @@
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
   <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
-  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
+  <!--<project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />-->
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Sandbox" name="crdroidandroid/android_packages_apps_Sandbox" remote="crdroid" />
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
@@ -74,8 +74,8 @@
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
-  <!--<project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />-->
-  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
+  <!--<project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />-->
   <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" remote="crdroid" />
   <!-- BCR (Call Recording) -->
