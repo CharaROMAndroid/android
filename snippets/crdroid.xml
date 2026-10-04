@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <manifest>
   <remote name="crdroid" fetch="https://github.com/" sync-c="true" sync-j="4" revision="refs/heads/17.0" />
   <remote name="crdroid-gitlab" fetch="https://gitlab.com/" sync-c="true" sync-j="4" revision="refs/heads/17.0" />
@@ -30,7 +30,6 @@
   <project path="packages/apps/ThemeStore" name="crdroidandroid/android_packages_apps_ThemeStore" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/resources/apps" name="crdroidandroid/android_packages_resources_apps" revision="16.0" />
   <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
@@ -40,7 +39,6 @@
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="system/fs/fs_mgr" name="crdroidandroid/android_system_fs_fs_mgr" groups="pdk" remote="crdroid" />
   <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" groups="pdk" remote="crdroid" />
-  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" remote="crdroid" />
   <project path="vendor/themes" name="crdroidandroid/android_vendor_themes" remote="crdroid" />
 </manifest>
