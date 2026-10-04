@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="chararom"
-    fetch="https://github.com/CharaROMAndroid"
-    sync-c="true"
-    sync-j="4"
-    revision="refs/heads/hershey" />
-  <remote name="openeuicc"
-    fetch="https://gitea.angry.im/"
-    sync-c="true"
-    sync-s="true"
-    sync-j="4" />
-
-  <!-- CharaROM Additions -->
-  <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="chararom" >
+  <remote name="chararom" fetch="https://github.com/CharaROMAndroid" revision="refs/heads/truffles" sync-c="true" sync-j="4" />
+  <remote name="calyx" fetch="https://github.com/CalyxOS" />
+  <remote name="openeuicc" fetch="https://gitea.angry.im/" sync-c="true" sync-s="true" sync-j="4" />
+  <!-- Datura, TalkBack and espeak-ng remain supplied by external/prebuiltapks. OpenEUICC remains disabled as in the existing manifest. -->
+  <project path="android" name="android" remote="chararom" revision="truffles" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="chararom" revision="truffles">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -20,96 +14,32 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="crdroidandroid/android_build_soong" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="chararom" />
-  <project path="packages/modules/Bluetooth" 
-    name="android_packages_modules_Bluetooth"
-    groups="pdk"
-    remote="chararom" />
-  <project path="packages/apps/PrivateSpace"
-    name="android_packages_apps_PrivateSpace"
-    groups="pdk-fs"
-    remote="chararom" />
-  <project path="packages/apps/Settings" 
-    name="android_packages_apps_Settings" 
-    groups="pdk-fs,pdk-cw-tvc,sysui-studio" 
-    remote="chararom"/>
-  <project path="frameworks/base"
-    name="android_frameworks_base"
-    groups="pdk-cw-fs,pdk-fs,sysui-studio"
-    remote="chararom"/>
-  <project path="packages/apps/SetupWizard"
-   name="android_packages_apps_SetupWizard"
-   remote="chararom" />
-  <project path="lineage-sdk"
-    name="android_lineage-sdk"
-    remote="chararom"/>
-  <project path="packages/apps/LineageParts"
-    name="android_packages_apps_LineageParts"
-    remote="chararom"/>
-  <project path="packages/apps/Launcher3"
-   name="android_packages_apps_Launcher3" 
-   groups="pdk-fs,sysui-studio,pdk-cw-tvc" 
-   remote="chararom"/>
-  <project path="vendor/addons"
-  name="android_vendor_chararom_addons"
-  remote="chararom"/>
-  <project path="packages/apps/CharaTweaks"
-    name="android_packages_apps_CharaTweaks"
-    remote="chararom" />
-  <project path="vendor/lineage"
-    name="android_vendor_chararom"
-    remote="chararom" />
-  <project path="device/lineage/sepolicy"
-   name="android_device_chara_sepolicy"
-   remote="chararom" />
-  <project path="packages/apps/Updater"
-   name="android_packages_apps_Updater"
-   remote="chararom" />
-  <project path="system/update_engine"
-   name="android_system_update_engine"
-   groups="pdk"
-   remote="chararom" />
-  <project path="vendor/CharaOTA"
-    name="android_vendor_CharaOTA"
-    remote="chararom" />
-  <project path="bootable/recovery"
-    name="android_bootable_recovery"
-    groups="pdk"
-    remote="chararom" />
-  <project path="packages/modules/CaptivePortalLogin"
-    name="android_packages_modules_CaptivePortalLogin"
-    groups="pdk-cw-fs,pdk-fs"
-    remote="chararom" />
-  <project path="packages/modules/Connectivity"
-    name="android_packages_modules_Connectivity"
-    groups="pdk-cw-fs,pdk-fs"
-    remote="chararom" />
-  <project path="external/prebuiltapks"
-    name="android_prebuilts_prebuiltapks_lfs"
-    remote="chararom"/>
-  <project path="system/core" 
-    name="android_system_core"
-    groups="pdk"
-    remote="chararom" />
-  <project path="external/wpa_supplicant_8" 
-    name="android_external_wpa_supplicant_8"
-    groups="pdk"
-    remote="chararom" />
-  <!-- Privacy/Accessibility Apps -->
-  <project path="packages/apps/F-DroidPrivilegedExtension"
-    name="F-DroidPrivilegedExtension"
-    remote="chararom"/>
-  <!-- Use YAAP Aperture -->
-  <project path="packages/apps/Aperture"
-    name="YAAP/packages_apps_Aperture"
-    revision="sixteen"
-    remote="github"/>
-  <!-- Panic Button Apps -->
-  <project path="packages/apps/EmergencyButton"
-    name="android_packages_apps_EmergencyButton"
-    remote="chararom"/>
-  <project path="packages/apps/TriggerResponse"
-    name="android_packages_apps_TriggerResponse"
-    remote="chararom"/>
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="chararom" revision="truffles" />
+  <project path="device/lineage/sepolicy" name="android_device_chara_sepolicy" remote="chararom" revision="truffles" />
+  <project path="device/motorola/milanf" name="android_device_motorola_milanf" remote="chararom" revision="truffles" />
+  <project path="external/prebuiltapks" name="android_prebuilts_prebuiltapks_lfs" remote="chararom" revision="truffles" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="chararom" revision="truffles" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="chararom" revision="truffles" />
+  <project path="packages/apps/Aperture" name="YAAP/packages_apps_Aperture" revision="seventeen" remote="github" />
+  <project path="packages/apps/CharaTweaks" name="android_packages_apps_CharaTweaks" remote="chararom" revision="truffles" />
+  <project path="packages/apps/EmergencyButton" name="android_packages_apps_EmergencyButton" remote="chararom" revision="truffles" />
+  <project path="packages/apps/F-DroidPrivilegedExtension" name="F-DroidPrivilegedExtension" remote="chararom" revision="truffles" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="chararom" revision="truffles" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="chararom" revision="truffles" />
+  <project path="packages/apps/PrivateSpace" name="android_packages_apps_PrivateSpace" groups="pdk-fs" remote="chararom" revision="truffles" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="chararom" revision="truffles" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="chararom" revision="truffles" />
+  <project path="packages/apps/TriggerResponse" name="android_packages_apps_TriggerResponse" remote="chararom" revision="truffles" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="chararom" revision="truffles" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="chararom" revision="truffles" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="chararom" revision="truffles" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="calyx" revision="android17" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="vendor/CharaOTA" name="android_vendor_CharaOTA" remote="chararom" revision="truffles" />
+  <project path="vendor/addons" name="android_vendor_chararom_addons" remote="chararom" revision="truffles" />
+  <project path="vendor/bcr" name="crdroidandroid/android_vendor_bcr" remote="crdroid" />
+  <project path="vendor/lineage" name="android_vendor_chararom" remote="chararom" revision="truffles" />
 </manifest>
