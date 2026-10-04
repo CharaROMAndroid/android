@@ -23,7 +23,6 @@
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
   <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
-  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Sandbox" name="crdroidandroid/android_packages_apps_Sandbox" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />

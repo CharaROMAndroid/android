@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <manifest>
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
@@ -27,7 +27,6 @@
   <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" />
   <project path="packages/apps/Canvas" name="LineageOS/android_packages_apps_Canvas" />
   <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
-  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
