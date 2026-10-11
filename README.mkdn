@@ -132,3 +132,8 @@ If you want to translate a CharaROM specific string, please open a pull request 
 ### 5.4 Forum template
 Ready to share your build? Use the forum post template:
 https://git.chararom.xyz/CharaROMAndroid/chararom_features/blob/16.0/ForumPostTemplate
+
+## 6. About Kat
+Some commits in CharaROM repos list "Kat" as an author or co-author.
+
+Kat (Kryptonic Autocommitting Tool) is an AI assistant used for code scanning, commit message assistance, and small fixes written at the maintainers' direction, usually when Chara was away from her laptop. Every Kat commit is reviewed and approved by a human maintainer before it's pushed.
