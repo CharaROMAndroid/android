@@ -36,7 +36,6 @@
   <project path="packages/services/QuickLook" name="crdroidandroid/android_packages_services_QuickLook" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="system/fs/fs_mgr" name="crdroidandroid/android_system_fs_fs_mgr" groups="pdk" remote="crdroid" />
   <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" remote="crdroid" />
   <project path="vendor/themes" name="crdroidandroid/android_vendor_themes" remote="crdroid" />
