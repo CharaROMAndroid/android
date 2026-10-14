@@ -40,4 +40,5 @@
   <project path="system/memory/libmeminfo" name="crdroidandroid/android_system_memory_libmeminfo" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" remote="crdroid" />
   <project path="vendor/themes" name="crdroidandroid/android_vendor_themes" remote="crdroid" />
+  <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
 </manifest>
