@@ -46,4 +46,6 @@
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" revision="17.0" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" remote="crdroid" revision="lineage-24.0" groups="pdk-fs" />
   <project path="system/fs/fs_mgr" name="android_system_fs_fs_mgr" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="external/conscrypt" name="android_external_conscrypt" groups="pdk" remote="chararom" revision="truffles" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" groups="pdk" remote="chararom" revision="truffles" />
 </manifest>
