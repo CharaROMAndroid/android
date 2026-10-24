@@ -15,7 +15,6 @@
   </project>
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="chararom" revision="truffles" />
   <project path="device/lineage/sepolicy" name="android_device_chara_sepolicy" remote="chararom" revision="truffles" />
-  <project path="external/prebuiltapks" name="android_prebuilts_prebuiltapks_lfs" remote="chararom" revision="truffles" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="chararom" revision="truffles" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="chararom" revision="truffles" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="chararom" revision="truffles" />
