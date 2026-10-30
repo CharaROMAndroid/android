@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
   <remote name="chararom" fetch="https://github.com/CharaROMAndroid" revision="refs/heads/truffles" sync-c="true" sync-j="4" />
+  <remote name="chararom-forgejo" fetch="https://git.chararom.xyz/CharaROMAndroid" revision="refs/heads/truffles" sync-c="true" sync-j="4" />
   <remote name="calyx" fetch="https://github.com/CalyxOS" />
   <remote name="openeuicc" fetch="https://gitea.angry.im/" sync-c="true" sync-s="true" sync-j="4" />
   <project path="android" name="android" remote="chararom" revision="truffles" />
@@ -16,6 +17,8 @@
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="chararom" revision="truffles" />
   <project path="device/lineage/sepolicy" name="android_device_chara_sepolicy" remote="chararom" revision="truffles" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="chararom" revision="truffles" />
+  <remove-project name="crdroidandroid/android_frameworks_av" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk,sysui-studio" remote="chararom-forgejo" revision="truffles" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="chararom" revision="truffles" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="chararom" revision="truffles" />
   <project path="packages/apps/Aperture" name="YAAP/packages_apps_Aperture" revision="seventeen" remote="github" />
