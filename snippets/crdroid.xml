@@ -12,7 +12,6 @@
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="crdroid" />
-  <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="packages/apps/Glimpse" name="crdroidandroid/android_packages_apps_Glimpse" remote="crdroid" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="17.0-caf-sm8150" />
   <project path="packages/apps/AppLocker" name="crdroidandroid/android_packages_apps_AppLocker" remote="crdroid" />
