@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="chararom" fetch="https://github.com/CharaROMAndroid" revision="refs/heads/truffles" sync-c="true" sync-j="4" />
+  <remote name="chararom" fetch="https://git.chararom.xyz/CharaROMAndroid" revision="refs/heads/truffles" sync-c="true" sync-j="4" />
   <remote name="chararom-forgejo" fetch="https://git.chararom.xyz/CharaROMAndroid" revision="refs/heads/truffles" sync-c="true" sync-j="4" />
   <remote name="calyx" fetch="https://github.com/CalyxOS" />
   <remote name="openeuicc" fetch="https://gitea.angry.im/" sync-c="true" sync-s="true" sync-j="4" />
